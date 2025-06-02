@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Barbie</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="default.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-items">
+          <a href="index.html">Index</a>
+          <a href="home.html" class="active">Her Home</a>
+          <a href="closet.html">Wardrobe</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="wrap">
+        <img src="images/house.webp" height="400px" alt="barbie house"/>
+        <div>
+            <p>Barbie’s Dreamhouse is a colorful, stylish home filled with fun features and endless play opportunities. It often includes multiple floors, rooms like a kitchen, bedroom, and living room, and exciting extras like a slide or an elevator. The house reflects Barbie’s personality—creative, modern, and full of imagination—making it the perfect place for storytelling and adventures with friends.</p>
+        </div>
+    </section>
+    <div class="hero-container">
+      <div class="hero-slider">
+        <span class="hero-slide active"><img src="images/kem.webp" width="400px" height="400px" alt="ken from barbie"></span>
+        <span class="hero-slide"><img src="images/raquelle.webp" alt="raquelle from barbie"></span>
+        <span class="hero-slide"><img src="images/ryan.webp" alt="ryan from barbie"></span>
+      </div>
+      <button class="hero-nav-btn prev" onclick="changeHero(-1)">❮</button>
+      <button class="hero-nav-btn next" onclick="changeHero(+1)">❯</button>
+    </div>
+    </main>
+    <script src="scripts.js"></script>
+  </body>
+  <footer style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+    WHS 25' Web Design
+  </footer>
+</html>
+

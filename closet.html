@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="default.css">
+    <title>Barbie</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav-items">
+          <a href="index.html" class="active">Index</a>
+          <a href="home.html">Her Home</a>
+          <a href="closet.html">Wardrobe</a>
+        </div>
+      </nav>
+      <span class="sitename" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" style="color: rgb(248, 142, 239);">Quiz on Barbie</span>
+      <span id="scoreText" class="sitename" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" style="color: rgb(248, 142, 239);">Score: 0</span>
+    </header>
+    <main>
+      <div class="q-container">
+        <h1>Question 1</h1>
+        <h2>What is Barbies favorite color?</h2>
+
+        <input type="radio" name="q1" value="correct" id="q1a1">
+        <label for="q1a1">Pink</label><br>
+
+        <input type="radio" name="q1" value="" id="q1a2">
+        <label for="q1a2">Blue</label><br>
+
+        <input type="radio" name="q1" value="" id="q1a3">
+        <label for="q1a3">Purple</label><br>
+    
+        <div class="result" id="result1"></div>
+        <button id="q1" onclick="checkAnswer('q1', '#result1')">Check Answer</button>
+      </div>
+      <div class="q-container">
+        <h1>Question 2</h1>
+        <h2>Who is Barbies boyfriend?</h2>
+
+        <input type="radio" name="q2" value="" id="q1a1">
+        <label for="q1a1">Ryan</label><br>
+
+        <input type="radio" name="q2" value="" id="q1a2">
+        <label for="q1a2">Josh</label><br>
+
+        <input type="radio" name="q2" value="correct" id="q1a3">
+        <label for="q1a3">Ken</label><br>
+    
+        <div class="result" id="result2"></div>
+        <button id="q2" onclick="checkAnswer('q2', '#result2')">Check Answer</button>
+      </div>
+      <div class="q-container">
+        <h1>Question 3</h1>
+        <h2>How</h2>
+
+        <input type="radio" name="q3" value="correct" id="q1a1">
+        <label for="q1a1">102 battles</label><br>
+
+        <input type="radio" name="q3" value="" id="q1a2">
+        <label for="q1a2">123 battles</label><br>
+
+        <input type="radio" name="q3" value="" id="q1a3">
+        <label for="q1a3">97 battles</label><br>
+    
+        <div class="result" id="result3"></div>
+        <button id="q3" onclick="checkAnswer('q3', '#result3')">Check Answer</button>
+      </div>
+    </main>
+  </body>
+  <script src="scripts.js"></script>
+  <footer style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+    WHS 25' Web Design
+  </footer>
+</html>
